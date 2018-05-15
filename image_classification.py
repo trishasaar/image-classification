@@ -11,7 +11,7 @@ from pathlib import Path
 import os
 import operator
 
-direc = r'C:\Users\trish\AnacondaProjects\Image Classification\Photos'
+direc = r'' # enter the path to your photos folder here!
 
 # Defining a function that will do the detections
 def detect(frame, net, transform): #inputs: a frame, a ssd neural network, and a transformation to be applied on the images, and that will return the frame with the detector rectangle.
